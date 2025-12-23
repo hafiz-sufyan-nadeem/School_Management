@@ -3,15 +3,10 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ClassController;
 use App\Http\Controllers\StudentController;
+use App\Http\Controllers\HomeController;
 
-Route::get('/', function () {
-    return view('home');
-});
-
-// Default page redirect to classes.index via controller
-Route::get('/', function () {
-    return redirect()->route('classes.index');
-});
+// Home Page
+Route::get('/', [HomeController::class, 'index']);
 
 // Resource routes
 Route::resource('classes', ClassController::class);
