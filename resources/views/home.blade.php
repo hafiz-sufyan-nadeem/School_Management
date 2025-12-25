@@ -18,7 +18,6 @@
                 <h2 class="mb-3">About This System</h2>
                 <p class="lead text-muted">
                     This simple School Management System allows you to add, edit, and manage classes and students efficiently.
-                    Built with Laravel & MySQL, it is beginner-friendly, responsive, and easy to use.
                 </p>
             </div>
         </div>
@@ -28,7 +27,7 @@
     <footer class="bg-dark text-white py-4 mt-5">
         <div class="container text-center">
             <p class="mb-1">&copy; {{ date('Y') }} School Management System. All rights reserved.</p>
-            <small>Designed with ❤️ using Laravel & Bootstrap</small>
+
         </div>
     </footer>
 @endsection
