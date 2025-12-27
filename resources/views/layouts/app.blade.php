@@ -12,7 +12,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
     <div class="container">
         <a class="navbar-brand" href="{{ route('home') }}">School MS</a>
-        <div class="collapse navbar-collapse">
+{{--        <div class="collapse navbar-collapse">--}}
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link" href="{{ route('classes.index') }}">Classes</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{ route('students.index') }}">Students</a></li>
