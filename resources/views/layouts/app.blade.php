@@ -18,7 +18,7 @@
                 <li class="nav-item"><a class="nav-link" href="{{ route('students.index') }}">Students</a></li>
             </ul>
         </div>
-    </div>
+{{--    </div>--}}
 </nav>
 
 <!-- Main Content -->
