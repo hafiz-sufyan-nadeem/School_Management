@@ -20,7 +20,7 @@
         </div>
     </div>
 </nav>
-<
+
 <!-- Main Content -->
 <div class="container">
     @if(session('success'))
