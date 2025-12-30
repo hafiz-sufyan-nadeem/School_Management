@@ -7,7 +7,7 @@
             <h1 class="display-4 fw-bold mb-3">Welcome to School Management System</h1>
             <p class="lead mb-4">Easily manage your classes, students, and school records in one place</p>
             <a href="{{ route('classes.create') }}" class="btn btn-success btn-lg me-3">Add Class</a>
-{{--            <a href="{{ route('students.create') }}" class="btn btn-primary btn-lg">Add Student</a>--}}
+            <a href="{{ route('students.create') }}" class="btn btn-primary btn-lg">Add Student</a>
         </div>
     </div>
 
